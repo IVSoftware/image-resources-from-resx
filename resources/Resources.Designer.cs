@@ -63,9 +63,9 @@ namespace resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Image1 {
+        internal static System.Drawing.Bitmap AceOfDiamonds {
             get {
-                object obj = ResourceManager.GetObject("Image1", resourceCulture);
+                object obj = ResourceManager.GetObject("AceOfDiamonds", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace resources {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Image2 {
+        internal static System.Drawing.Bitmap EightOfSpades {
             get {
-                object obj = ResourceManager.GetObject("Image2", resourceCulture);
+                object obj = ResourceManager.GetObject("EightOfSpades", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

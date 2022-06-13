@@ -16,7 +16,7 @@ namespace resources
         // Use the resource manager to access an image in a .resx file.
         private void buttonCard1_Click(object sender, EventArgs e)
         {
-            var card = new Card(1, "AceOfDiamonds", Resources.Image1);
+            var card = new Card(1, "AceOfDiamonds", Resources.AceOfDiamonds);
             pictureBox1.Image = card.Image;
             labelImageCredit.Text = "Image Credit: www.freestockphotos.biz/stockphoto/15524";
         }
