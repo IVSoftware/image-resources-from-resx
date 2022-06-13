@@ -32,12 +32,13 @@ namespace resources
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.buttonCard1 = new System.Windows.Forms.Button();
             this.buttonCard2 = new System.Windows.Forms.Button();
+            this.labelImageCredit = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(61, 90);
+            this.pictureBox1.Location = new System.Drawing.Point(61, 34);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 300);
             this.pictureBox1.TabIndex = 0;
@@ -45,7 +46,7 @@ namespace resources
             // 
             // buttonCard1
             // 
-            this.buttonCard1.Location = new System.Drawing.Point(319, 90);
+            this.buttonCard1.Location = new System.Drawing.Point(319, 34);
             this.buttonCard1.Name = "buttonCard1";
             this.buttonCard1.Size = new System.Drawing.Size(112, 34);
             this.buttonCard1.TabIndex = 1;
@@ -55,7 +56,7 @@ namespace resources
             // 
             // buttonCard2
             // 
-            this.buttonCard2.Location = new System.Drawing.Point(319, 130);
+            this.buttonCard2.Location = new System.Drawing.Point(319, 74);
             this.buttonCard2.Name = "buttonCard2";
             this.buttonCard2.Size = new System.Drawing.Size(112, 34);
             this.buttonCard2.TabIndex = 1;
@@ -63,18 +64,29 @@ namespace resources
             this.buttonCard2.UseVisualStyleBackColor = true;
             this.buttonCard2.Click += new System.EventHandler(this.buttonCard2_Click);
             // 
-            // Form1
+            // labelImageCredit
+            // 
+            this.labelImageCredit.AutoSize = true;
+            this.labelImageCredit.Location = new System.Drawing.Point(61, 400);
+            this.labelImageCredit.Name = "labelImageCredit";
+            this.labelImageCredit.Size = new System.Drawing.Size(114, 25);
+            this.labelImageCredit.TabIndex = 2;
+            this.labelImageCredit.Text = "Image Credit";
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 450);
+            this.Controls.Add(this.labelImageCredit);
             this.Controls.Add(this.buttonCard2);
             this.Controls.Add(this.buttonCard1);
             this.Controls.Add(this.pictureBox1);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Main Form";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -83,6 +95,7 @@ namespace resources
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button buttonCard1;
         private System.Windows.Forms.Button buttonCard2;
+        private System.Windows.Forms.Label labelImageCredit;
     }
 }
 

@@ -9,13 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\Image1.png" />
-    <None Remove="Images\Image2.png" />
+    <None Remove="Images\AceOfDiamonds.png" />
+    <None Remove="Images\EightOfSpades.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="Images\Image1.png" />
-    <EmbeddedResource Include="Images\Image2.png" />
+    <EmbeddedResource Include="Images\AceOfDiamonds.png" />
+    <EmbeddedResource Include="Images\EightOfSpades.png" />
   </ItemGroup>
 
   <ItemGroup>

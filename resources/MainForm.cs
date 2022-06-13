@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
-using System.Resources;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace resources
@@ -23,8 +16,9 @@ namespace resources
         // Use the resource manager to access an image in a .resx file.
         private void buttonCard1_Click(object sender, EventArgs e)
         {
-            var card = new Card(1, "Green", Resources.Image1);
+            var card = new Card(1, "AceOfDiamonds", Resources.Image1);
             pictureBox1.Image = card.Image;
+            labelImageCredit.Text = "Image Credit: www.freestockphotos.biz/stockphoto/15524";
         }
 
 
@@ -40,8 +34,9 @@ namespace resources
                     Environment.NewLine, 
                     typeof(MainForm).Assembly.GetManifestResourceNames()));
 
-            var card = new Card(2, "Red", "resources.Images.Image2.png");
+            var card = new Card(2, "EightOfSpades", "resources.Images.EightOfSpades.png");
             pictureBox1.Image = card.Image;
+            labelImageCredit.Text = "Image Credit: www.freestockphotos.biz/stockphoto/15491";
         }
     }
 
